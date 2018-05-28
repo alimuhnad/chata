@@ -10,7 +10,6 @@ const WT=require('../server/models/userWT')
 
 const app = express()
 
-
 app.use(bodyParser.json())
 app.use(cors())
 app.use('/api',api)
